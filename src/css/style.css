@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-first {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.header1 {
+    width: 10%;
+    padding: 10px 10px;
+    display: flex;
+    align-content: flex-start;
+
+}
+
+.header2 {
+    width: 15%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-right: 0;
+    padding-left: 51px;
+}
+
+.header2 .header3 {
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    border: 2px none #bce3c9;
+    display: flex;
+}
+
+.header2 #categories-bar {
+    border: 2px none #bce3c9;
+    padding: 10px 20px;
+    font-family: Quicksand bold;
+    display: flex;
+    border: 2px solid #bce3c9;
+    margin-left: 60px;
+}
+
+.header3 {
+    width: 15%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 0;
+    padding-right: 460px;
+
+}
+
+.header3 .search input {
+    border: 2px solid #bce3c9;
+    font-family: quicksand bold;
+    padding: 11.2px 145px;
+    margin-left: -85px;
+    text-align: left;
+}
+
+.header4 {
+    width: 18%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 445px;
+    font-family: quicksand;
+}
+
+.header4 svg {
+    max-width: 100%;
+    width: 20px;
+    height: 20 px;
+    margin-right: 10px;
+    font-weight: 600;
+    display: flex;
+    padding-right: 5px;
+
+}
+
+.icon {
+    display: flex;
+
+}
+
+.icon div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 20px;
+    margin: 5px 10px;
+
+}
+
+.icon p {
+    font-size: 16px;
+    margin: 5px 0 0 10px;
+    color: #7e7e7e;
+    font-family: sans-serif;
+}
+
+.header2 {
+    display: flex;
+    margin: 0;
+    width: 15%;
+}
+
+.first {
+    width: 16%;
+    padding: 10px 10px;
+    border: 2px solid #bce3c9;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #253d4e;
+    padding: 10px 20px;
+    margin-left: 100px;
+    background-color: #fff;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    justify-content: center !important;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    font-family: Quicksand;
+}
+
+.categories-button {
+    background-color: #3bb77e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-size: Quicksand;
+    padding: 15px 15px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all .3s ease 0s;
+}
+
+.categories-button:hover {
+    background-color: #29a56c;
+    transition: all .3s ease 0s;
+}
+
+@font-face {
+    font-family: Quicksand bold;
+    src: url(../fonts/Quicksand-Bold.ttf);
+}
+
+.categories-label {
+    color: #253d4e;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: Quicksand bold;
+    transition: all .3s ease 0s;
+    font-weight: 900;
+    display: flex;
+    cursor: pointer;
+}
+
+.categories-label:hover {
+    color: #29a56c;
+    transition: all .3s ease 0s;
+}
+
+.menu a {
+    color: #253d4e;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: quicksand bold;
+    font-weight: 600;
+    transition: all .3s ease 0s;
+}
+
+.menu a:hover {
+    color: #29a56c;
+    transition: all .3s ease 0s;
+}
+
+.support {
+    width: 22%;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #3bb77e;
+
+}
+
+.icon-and-number {
+    display: flex;
+    align-items: center;
+}
+
+.left-icon {
+    margin-right: 10px;
+    width: 36px;
+    height: 38px;
+}
+
+.support h1 {
+    font-family: quicksand bold;
+    font-size: 26px;
+    color: #3bb77e;
+}
+
+.support h3 {
+    font-size: 11px;
+    font-family: quicksand bold;
+    color: #7e7e7e;
+    align-items: center;
+}
+
+.container {
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.subscribe-section {
+    text-align: left;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(20px, 20px);
+}
+
+.subscribe-section h1 {
+    font-size: 80px;
+    color: #253d4e;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-family: Quicksand bold;
+}
+
+.subscribe-section h4 {
+    font-size: 30px;
+    color: #253d4e;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: Quicksand bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.subscribe-section input {
+    width: 55%;
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 2px solid #bce3c9;
+    border-radius: 50px;
+}
+
+.subscribe-button {
+    background-color: #3bb77e;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 25px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: -70px;
+}
+
+.subscribe-button:hover {
+    background-color: #29a56c;
+}
+
+.subscribe-input {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #bce3c9;
+    border-radius: 5px;
+}
+
+.container-content {
+    padding: 15px 0;
+    margin: 0 240px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.container-content h1 {
+    font-family: Quicksand bold;
+    color: #253d4e;
+
+}
+
+.container-content a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Quicksand bold;
+    color: #253d4e;
+    padding-top: 15px;
+    padding-left: 20px;
+    transition: all 0.2s ease 0s;
+    float: right;
+}
+
+.container-content a:hover {
+    margin-top: -5px;
+    transition: all 0.2s ease 0s;
+    color: #29a56c;
+
+}
+
+.icon-left {
+    font-size: 40px;
+    background-color: #c4c4c4;
+    padding: 5px 6px;
+    border-radius: 50%;
+    margin-left: 560px;
+    transition: all 0.3s ease 0s;
+    color: #ffffff
+}
+
+.icon-left:hover {
+    cursor: pointer;
+    background-color: #29a56c;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+
+}
+
+.icon-right {
+    font-size: 40px;
+    background-color: #c4c4c4;
+    padding: 5px 6px;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    color: #ffffff
+}
+
+.icon-right:hover {
+    cursor: pointer;
+    background-color: #29a56c;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+
+.container2 {
+    margin: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: Quicksand bold;
+}
+
+.product {
+    width: 18%;
+    border-radius: 15px;
+    border: 1px solid #ececec;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.product h4 {
+    font-family: Quicksand bold;
+    margin: 10px 0;
+    color: #253d4e;
+    transition: all 0.3s ease 0s;
+
+}
+
+.product h4:hover {
+    margin: 10px 0;
+    color: #29a56c;
+    transition: all 0.3s ease 0s;
+    transform: scaleX(1.05);
+}
+
+.product h5 {
+    font-family: Quicksand bold;
+    color: #3bb77e;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.add-button {
+    background-color: #3bb77e;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #29a56c;
+}
+
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
+
+.container3 {
+    margin: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: Quicksand bold;
+}
+
+.product {
+    width: 18%;
+    border-radius: 15px;
+    border: 1px solid #ececec;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.product h4 {
+    font-family: Quicksand bold;
+    margin: 10px 0;
+    color: #253d4e;
+    transition: all 0.3s ease 0s;
+
+}
+
+.product h4:hover {
+    margin: 10px 0;
+    color: #29a56c;
+    transition: all 0.3s ease 0s;
+    transform: scaleX(1.05);
+}
+
+.product h5 {
+    font-family: Quicksand bold;
+    color: #3bb77e;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.add-button {
+    background-color: #3bb77e;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #29a56c;
+}
+
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
